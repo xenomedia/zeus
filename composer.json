@@ -1,0 +1,29 @@
+{
+    "name": "xenomedia/zeus",
+    "description": "The best of Drupal, curated by Xeno Media",
+    "type": "drupal-profile",
+    "license": "GPL-2.0+",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "drush/drush": "^9.0",
+        "drupal/drupal-extension": "^3.1",
+        "jakoch/phantomjs-installer": "1.9.8",
+        "behat/behat": "^3.0",
+        "drupal/coder": "8.*",
+        "phing/phing": "^2.14"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.drupal-composer.org"
+        }
+    ],
+    "require": {
+        "drupal/lightning": "8.1.00-rc5",
+        "drupal/google_analytics": "8.2.*"
+    }
+}
