@@ -24,6 +24,12 @@
     ],
     "require": {
         "drupal/lightning": "8.1.00-rc5",
-        "drupal/google_analytics": "8.2.*"
+        "drupal/google_analytics": "8.2.*",
+        "composer/installers": "^1.0",
+        "cweagans/composer-patches": "dev-master"
+    },
+    "extra": {
+      "patches-file": "composer.patches.json",
+      "enable-patching": true
     }
 }
