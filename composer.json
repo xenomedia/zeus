@@ -38,7 +38,10 @@
                 "type:drupal-module"
             ]
         },
-        "patches-file": "composer.patches.json",
-        "enable-patching": true
+        "patches": {
+            "drupal/core": {
+                "Fixes Uncaught PHP Exception when selecting too many tests to be tested from UI" : "https://www.drupal.org/files/issues/2575725-16.patch"
+            }
+        }
     }
 }
