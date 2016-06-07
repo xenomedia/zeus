@@ -30,7 +30,15 @@
         "drupal/metatag": "8.1.0-beta9"
     },
     "extra": {
-      "patches-file": "composer.patches.json",
-      "enable-patching": true
+        "installer-paths": {
+            "core": [
+                "drupal/core"
+            ],
+            "modules/contrib/{$name}": [
+                "type:drupal-module"
+            ]
+        },
+        "patches-file": "composer.patches.json",
+        "enable-patching": true
     }
 }
