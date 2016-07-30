@@ -31,8 +31,6 @@
         "drupal/field_formatter": "8.*",
         "drupal/field_group": "8.*",
         "drupal/google_analytics": "8.2.*",
-        "drupal/metatag": "8.1.0-beta9",
-        "drupal/page_manager": "8.*",
         "drupal/paragraphs": "8.*"
     },
     "extra": {
