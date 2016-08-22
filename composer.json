@@ -31,7 +31,8 @@
         "drupal/field_formatter": "8.*",
         "drupal/field_group": "8.*",
         "drupal/google_analytics": "8.2.*",
-        "drupal/paragraphs": "8.*"
+        "drupal/paragraphs": "8.*",
+        "solarium/solarium": "^3.6"
     },
     "extra": {
         "installer-paths": {

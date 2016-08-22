@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e7014c62314cae9d06415d0de2c03f4a",
-    "content-hash": "5ea93e029749771307bc10dbd7823a3d",
+    "hash": "09cd0703c316f671120ae3006ef1629e",
+    "content-hash": "3ead1b9f9890f5ea4abbc4259af1dd75",
     "packages": [
         {
             "name": "composer/installers",
@@ -1114,7 +1114,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/entity_browser-8.x-1.0-alpha7.zip",
-                "reference": null,
+                "reference": "3875750f3d0a063af6c1c5e6aee4b45d210f8264",
                 "shasum": null
             },
             "require": {
@@ -1473,7 +1473,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/lightning-8.x-1.03.zip",
-                "reference": null,
+                "reference": "11f32757e195d24400da42e7810134b3995d00e4",
                 "shasum": null
             },
             "require": {
@@ -2923,6 +2923,60 @@
                 "psr-3"
             ],
             "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "solarium/solarium",
+            "version": "3.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/solariumphp/solarium.git",
+                "reference": "b945cbe4e8f96b639d82c4d1e2cae4ef3ab6fce5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/solariumphp/solarium/zipball/b945cbe4e8f96b639d82c4d1e2cae4ef3ab6fce5",
+                "reference": "b945cbe4e8f96b639d82c4d1e2cae4ef3ab6fce5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/event-dispatcher": "~2.3|~3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7",
+                "satooshi/php-coveralls": "~1.0",
+                "squizlabs/php_codesniffer": "~1.4",
+                "zendframework/zendframework1": "~1.12"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "3.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Solarium\\": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "See GitHub contributors",
+                    "homepage": "https://github.com/basdenooijer/solarium/contributors"
+                }
+            ],
+            "description": "PHP Solr client",
+            "homepage": "http://www.solarium-project.org",
+            "keywords": [
+                "php",
+                "search",
+                "solr"
+            ],
+            "time": "2016-05-03 07:08:49"
         },
         {
             "name": "stack/builder",
