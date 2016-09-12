@@ -32,7 +32,8 @@
         "drupal/field_group": "8.*",
         "drupal/google_analytics": "8.2.*",
         "drupal/paragraphs": "8.*",
-        "solarium/solarium": "^3.6"
+        "solarium/solarium": "^3.6",
+        "drupal/reroute_email": "8.*"
     },
     "extra": {
         "installer-paths": {

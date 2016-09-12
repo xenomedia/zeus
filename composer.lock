@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "09cd0703c316f671120ae3006ef1629e",
-    "content-hash": "3ead1b9f9890f5ea4abbc4259af1dd75",
+    "hash": "6c7c0ae89313e592a0dbc1cb5dbaf05b",
+    "content-hash": "4a2fa16b91ff1234955a023a815147fe",
     "packages": [
         {
             "name": "composer/installers",
@@ -2084,6 +2084,37 @@
             "description": "Provides a mechanism for modules to automatically generate aliases for the content they manage.",
             "homepage": "https://www.drupal.org/project/pathauto",
             "time": "2016-04-18 18:44:27"
+        },
+        {
+            "name": "drupal/reroute_email",
+            "version": "8.1.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/reroute_email",
+                "reference": "a02575c75583d2cb01eaf84fd22fc4b097dc7edd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/reroute_email-8.x-1.0-beta1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Reroutes emails send from the site to a predefined email. Useful for test sites.",
+            "homepage": "https://www.drupal.org/project/reroute_email",
+            "time": "2016-09-09 23:41:23"
         },
         {
             "name": "drupal/scheduled_updates",
