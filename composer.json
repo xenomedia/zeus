@@ -33,8 +33,7 @@
         "drupal/paragraphs": "8.*",
         "solarium/solarium": "^3.6",
         "drupal/reroute_email": "8.*",
-        "drupal/coder": "8.*",
-        "drupal/site_audit": "8.*"
+        "drupal/coder": "8.*"
     },
     "extra": {
         "installer-paths": {
