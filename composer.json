@@ -27,7 +27,7 @@
     ],
     "require": {
         "composer/installers": "^1.0",
-        "acquia/lightning": "^3.0",
+        "acquia/lightning": "^3.1",
         "drupal/admin_toolbar": "^1.0",
         "drupal/devel": "^1.0@beta",
         "drupal/stage_file_proxy": "^1.0@alpha",
